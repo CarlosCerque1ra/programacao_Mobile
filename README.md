@@ -3,10 +3,6 @@
 
 Bem-vindo ao repositório de projetos de Programação Mobile desenvolvidos com Python e Flet!
 
----
-
-## ✨ Sobre o Projeto
-Este repositório reúne uma série de aplicativos criados para explorar e praticar conceitos de desenvolvimento de interfaces gráficas utilizando o framework [Flet](https://flet.dev/). Cada arquivo representa um exercício, exemplo ou desafio, com foco em aprendizado prático e visual.
 
 ---
 
@@ -28,28 +24,6 @@ Este repositório reúne uma série de aplicativos criados para explorar e prati
 | 10a_desafio2.py            | Desafio 2: Integração de conceitos                                        |
 
 > As imagens ilustrativas estão na pasta `Códigos/` e facilitam a visualização dos resultados esperados.
-
----
-
-## 🚀 Como Executar os Projetos
-
-1. **Pré-requisitos:**
-   - Python 3.10 ou superior
-   - [Flet](https://flet.dev/)
-
-2. **Instale o Flet:**
-   ```powershell
-   pip install flet
-   ```
-
-3. **Execute o arquivo desejado:**
-   ```powershell
-   python nome_do_arquivo.py
-   ```
-   Exemplo:
-   ```powershell
-   python 7_calculadora.py
-   ```
 
 ---
 
