@@ -12,20 +12,20 @@ Este repositório reúne uma série de aplicativos criados para explorar e prati
 
 ## 🗂️ Estrutura dos Projetos
 
-| Arquivo Python              | Descrição                                                                 | Imagem Ilustrativa                |
-|----------------------------|---------------------------------------------------------------------------|-----------------------------------|
-| 1_primeiro_app.py          | Primeiro app: janela simples com Flet                                      | ![1º App](Códigos/1_primeiro_app.jpg) |
-| 2_botao_simples.py         | Botão interativo                                                          | ![Botão](Códigos/2_botao_simples.jpg) |
-| 3_campo_texto.py           | Campo de texto para entrada de dados                                      | ![Campo Texto](Códigos/3_campo_texto.jpg) |
-| 4_lista_cores.py           | Lista de cores                                                            | ![Lista Cores](Códigos/4_lista_cores.jpg) |
-| 5_layout_basico.py         | Layouts básicos                                                           | ![Layout Básico](Códigos/5_layout_basico.jpg) |
-| 5a_desafio1.py             | Desafio 1: Layout personalizado                                           | ![Desafio 1](Códigos/5a_desafio1.jpg) |
-| 6_contador.py              | Contador com botões de incremento/decremento                              | ![Contador](Códigos/6_contador.jpg) |
-| 7_calculadora.py           | Calculadora funcional (operações básicas)                                 | ![Calculadora](Códigos/7_calculadora.jpg) |
-| 8_painel_conf.py           | Painel de configurações                                                   |                                   |
-| 9_galeria_cards.py         | Galeria de cards com imagens e textos                                     |                                   |
-| 10_app_multipagina.py      | App multipágina: navegação entre telas                                    |                                   |
-| 10a_desafio2.py            | Desafio 2: Integração de conceitos                                        | ![Desafio 2](Códigos/10a_desafio2.jpg) |
+| Arquivo Python              | Descrição                                                                 
+|----------------------------|---------------------------------------------------------------------------|
+| 1_primeiro_app.py          | Primeiro app: janela simples com Flet                                     
+| 2_botao_simples.py         | Botão interativo                                                          |
+| 3_campo_texto.py           | Campo de texto para entrada de dados                                      |
+| 4_lista_cores.py           | Lista de cores                                                            |
+| 5_layout_basico.py         | Layouts básicos                                                           | 
+| 5a_desafio1.py             | Desafio 1: Layout personalizado                                           | 
+| 6_contador.py              | Contador com botões de incremento/decremento                              |
+| 7_calculadora.py           | Calculadora funcional (operações básicas)                                 |
+| 8_painel_conf.py           | Painel de configurações                                                   |                                   
+| 9_galeria_cards.py         | Galeria de cards com imagens e textos                                     |     
+| 10_app_multipagina.py      | App multipágina: navegação entre telas                                    |
+| 10a_desafio2.py            | Desafio 2: Integração de conceitos                                        |
 
 > As imagens ilustrativas estão na pasta `Códigos/` e facilitam a visualização dos resultados esperados.
 
@@ -62,10 +62,6 @@ Este repositório reúne uma série de aplicativos criados para explorar e prati
 
 ---
 
-## 👨‍💻 Autor
-- **Carlos Cerqueira Aguiar**
-- Email: [seu-email@exemplo.com](mailto:seu-email@exemplo.com)
-
 ---
 
 ## 📄 Licença
@@ -79,7 +75,5 @@ Projeto desenvolvido para fins educacionais.
 
 ---
 
-<div align="center">
-  <b>Boas práticas e bons estudos! 🚀</b>
-</div>
+
 
