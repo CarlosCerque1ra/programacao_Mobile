@@ -66,4 +66,3 @@ def main(page: ft.Page):
 	)
 
 ft.app(target=main)
-#  4ª Digitação (Aqui) 🎨 ✨

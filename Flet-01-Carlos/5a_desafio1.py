@@ -137,4 +137,3 @@ def main(page: ft.Page):
 	page.add(layout_principal)
 
 ft.app(target=main)
-#  5a Desafio Digitação (Aqui)📚  ⚽ 🎵  🎮 👨‍🍳 🎨 ⚠️ ✨ 🧹 👤 
