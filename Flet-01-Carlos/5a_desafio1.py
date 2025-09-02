@@ -10,15 +10,15 @@ def main(page: ft.Page):
 	campo_idade = ft.TextField(label="Idade", width=300, keyboard_type=ft.KeyboardType.NUMBER)
 
 	dropdown_hobby = ft.Dropdown(
-		label="Hobby favorito",
+		label="Marca de carro favorita",
 		width=300,
 		options=[
-			ft.dropdown.Option("Leitura 📚"),
-			ft.dropdown.Option("Esportes ⚽"),
-			ft.dropdown.Option("Música 🎵"),
-			ft.dropdown.Option("Jogos 🎮"),
-			ft.dropdown.Option("Culinária 🍳"),
-			ft.dropdown.Option("Arte 🎨")
+			ft.dropdown.Option("Honda"),
+			ft.dropdown.Option("Toyota 🚗"),
+			ft.dropdown.Option("Lexus 🚙"),
+			ft.dropdown.Option("Ford 🚘"),
+			ft.dropdown.Option("Chevrolet 🚕"),
+			ft.dropdown.Option("Nissan 🚖"),
 		]
 	)
 
@@ -49,7 +49,7 @@ def main(page: ft.Page):
 			mostrar_erro("Idade deve ser um número")
 			return
 		if not dropdown_hobby.value:
-			mostrar_erro("Selecione um hobby")
+			mostrar_erro("Selecione uma marca de carro favorita")
 			return
 		# Criando o perfil visual
 		criar_cartao_perfil()
@@ -81,7 +81,7 @@ def main(page: ft.Page):
 			ft.Icon(ft.Icons.PERSON, size=60, color=cor_icone),
 			ft.Text(campo_nome.value, size=20, weight=ft.FontWeight.BOLD),
 			ft.Text(f"{idade} anos - {categoria}", size=14, color=ft.Colors.GREY_600),
-			ft.Text(f"Hobby: {dropdown_hobby.value}", size=14),
+			ft.Text(f"Marca: {dropdown_hobby.value}", size=14),
 			ft.Container(
 				content=ft.Text("Perfil criado! ✨", color=ft.Colors.WHITE),
 				bgcolor=cor_icone,
