@@ -13,7 +13,7 @@ def main(page: ft.Page):
 		label="Marca de carro favorita",
 		width=300,
 		options=[
-			ft.dropdown.Option("Honda"),
+			ft.dropdown.Option("Honda 🚙"),
 			ft.dropdown.Option("Toyota 🚗"),
 			ft.dropdown.Option("Lexus 🚙"),
 			ft.dropdown.Option("Ford 🚘"),
